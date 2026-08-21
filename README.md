@@ -508,69 +508,6 @@ The SmartData Analyzer desktop application will open.
 9. Generate HTML Report
 ```
 
----
-
-# 📸 Screenshots
-
-Add your application screenshots inside a `screenshots` folder.
-
-Suggested structure:
-
-```text
-screenshots/
-│
-├── dashboard.png
-├── upload-dataset.png
-├── data-cleaning.png
-├── statistics.png
-├── charts.png
-├── analytics-dashboard.png
-└── report.png
-```
-
-Then display them in the README:
-
-```markdown
-## Dashboard
-
-![Dashboard](screenshots/dashboard.png)
-
-## Data Cleaning
-
-![Data Cleaning](screenshots/data-cleaning.png)
-
-## Statistics
-
-![Statistics](screenshots/statistics.png)
-
-## Analytics Dashboard
-
-![Analytics Dashboard](screenshots/analytics-dashboard.png)
-```
-
----
-
-# 📤 Generated Outputs
-
-After processing a dataset, the system can generate:
-
-```text
-dataset.csv
-│
-├── dataset_cleaned.csv
-│
-├── dataset_charts/
-│   ├── missing_values_before.png
-│   ├── hist_column.png
-│   ├── bar_column.png
-│   └── correlation_heatmap.png
-│
-└── dataset_report_output/
-    └── data_report.html
-```
-
----
-
 # 🚧 Future Improvements
 
 Possible future improvements include:
